@@ -53,9 +53,6 @@ body {
     margin-top: 24px;
     color: hsl(218, 44%, 22%);
   }
-  p {
-    margin: 0;
-  }
   .card p {
     padding: 0 15px;
     font-size: 1rem;
