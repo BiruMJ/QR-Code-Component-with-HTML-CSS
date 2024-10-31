@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* footer */
+.attribution { 
+    font-size: 0.8rem; 
+  }
+  .attribution a { 
+    color: hsl(295, 41%, 42%); 
+    text-decoration: none;
+  }
+  /* using pseudo selectors */
+  .attribution a:active {
+    color: hsl(218, 44%, 22%);
+  }
+  .attribution a:hover {
+    color: hsl(295, 66%, 51%);
+  }
+
+/* main */
+  .card {
+    max-width: 20rem;
+    padding: 16px;
+    padding-bottom: 40px;
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 20px;
+    box-sizing: content-box;
+    box-shadow: 2px 2px 30px hsla(216, 15%, 48%, 0.077);
+  }
+  img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  h2 {
+    padding: 0 20px;
+    margin-top: 24px;
+    color: hsl(218, 44%, 22%);
+  }
+  p {
+    margin: 0;
+  }
+  .card p {
+    padding: 0 15px;
+    font-size: 1rem;
+    margin-top: 16px;
+    color: hsl(216, 15%, 48%);
+  }
