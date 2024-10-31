@@ -15,23 +15,6 @@ body {
     align-items: center;
     gap: 2rem;
 }
-
-/* footer */
-.attribution { 
-    font-size: 0.8rem; 
-  }
-  .attribution a { 
-    color: hsl(295, 41%, 42%); 
-    text-decoration: none;
-  }
-  /* using pseudo selectors */
-  .attribution a:active {
-    color: hsl(218, 44%, 22%);
-  }
-  .attribution a:hover {
-    color: hsl(295, 66%, 51%);
-  }
-
 /* main */
   .card {
     max-width: 20rem;
@@ -58,4 +41,20 @@ body {
     font-size: 1rem;
     margin-top: 16px;
     color: hsl(216, 15%, 48%);
+  }
+
+/* footer */
+.attribution { 
+    font-size: 0.8rem; 
+  }
+  .attribution a { 
+    color: hsl(295, 41%, 42%); 
+    text-decoration: none;
+  }
+  /* using pseudo selectors */
+  .attribution a:active {
+    color: hsl(218, 44%, 22%);
+  }
+  .attribution a:hover {
+    color: hsl(295, 66%, 51%);
   }
